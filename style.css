@@ -1,0 +1,136 @@
+body {
+    font-family: arial, sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(252, 252, 252);
+    font-size: 12px;
+}
+
+.topnavbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 20px;
+    padding-top: 10px;
+}
+
+#toplinks1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.links1 {
+    float: left;
+    padding: 10px;
+}
+
+.links2 {
+    float: right;
+    padding: 10px;
+    margin-right: 10px;
+
+}
+
+li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+#signin {
+    color: #fff;
+    background-color: #1A73E8;
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    border: 2px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+#mainimage {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+
+
+
+.bottomnavbar {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 25px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    background-color:#f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    
+
+}
+
+#bottomlinks1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#signin:hover {
+    box-shadow: -0.5px 0.5px 0.5px dimgray;
+}
+
+input {
+    display: block;
+    position: relative;
+    margin-left: 36%;
+    margin-right: auto;
+    height: 30px;
+    width: 30%;
+    margin-bottom: 25px;
+    font-size: 15px;
+    padding: 5px 15px;
+    border: 1px solid #e2e2e2;
+    border-radius: 20px;
+    outline: none;
+}
+
+input:hover {
+    box-shadow: 0px 3px 2px #e2e2e2;
+}
+
+button {
+    display: float;
+    position: relative;
+    left: 45%;
+    background-color: #f8f8f8;
+    color: #222;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+}
+    
+    
+button:hover {
+    box-shadow: 0px 3px 2px #e2e2e2;
+    border: 1px solid #c6c6c6;
+    border-radius: 1px;
+    
+
+    
+}
